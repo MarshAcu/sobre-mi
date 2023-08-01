@@ -1,0 +1,43 @@
+
+/*
+    defino el tipo de letra como Sofia, declaro una imagen como background
+*/
+body {
+    font-family: "Sofia", sans-serif;
+    background-image: url("assets/img/fondo1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    color: #ffff;
+    text-shadow: 2px 2px #6B6C6B;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* saco los puntitos de las listas */
+ul {
+    list-style: none;
+}
+
+/* centra contenido */
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* define un contenedor para mostrar contenido en forma de grid */
+.grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid #6B6C6B; 
+    width: 50%; 
+}
+
+/* margen de celda de un grid y alineo todo el texto */
+.grid-cell {
+    margin: 10px;
+    text-align: center;
+}
